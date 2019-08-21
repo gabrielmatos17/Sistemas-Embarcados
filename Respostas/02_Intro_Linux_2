@@ -37,10 +37,11 @@ Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCae
   ls -l *.gif
 
 10. Liste somente os arquivos que contenham o nome 'cal'.
-  ls -la | grep cal
+  ls -la *cal*
 
 11. Liste somente os arquivos que contenham o nome 'tux'.
-  ls -la | grep tux
+  ls -la *tux*
 
 12. Liste somente os arquivos que comecem com o nome 'tux'.
-  
+  ls -la cal*
+
